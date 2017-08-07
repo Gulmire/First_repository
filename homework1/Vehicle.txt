@@ -1,0 +1,20 @@
+
+package package1;
+
+//implement the interface within Myabstract.java file
+public class Vehicle implements Myinterface {
+	static final String vehicle_brand = "Camry";
+
+	public void run() {
+		System.out.println("vehicles run");
+	}
+
+	public void start() {
+		System.out.println("Vehicle starts");
+	}
+
+	public void stop() {
+		System.out.println("Vehicle stops");
+	}
+
+}

@@ -1,0 +1,21 @@
+package package1;
+
+public class Main {
+	public static void main(String[] args) {
+		// instantiate the encapsulated variables
+		int quantity = 10;
+		String quality = "good";
+		String name = "backpacks";
+		System.out.println(quality + " " + name + " are  " + quality);
+		// Create object to class Car
+		Car car = new Car();
+		car.run();
+		// because Car inherits Vehicle so i can call the method in Vehicle
+		car.start();
+		car.stop();
+
+		car.add_numberOfCar(15, 20);
+		car.add_numberOfCar(10, 20, 30);
+	}
+
+}

@@ -1,0 +1,30 @@
+public class Merchandise {
+	private int quantity;
+	private String quality;
+	private String name;
+
+	public int getQuantity() {
+		return quantity;
+	}
+
+	public String getQuality() {
+		return quality;
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public void setQuantity() {
+		this.quantity = quantity;
+	}
+
+	public void setQuality() {
+		this.quality = quality;
+	}
+
+	public void setName() {
+		this.name = name;
+	}
+
+}
